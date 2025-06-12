@@ -19,7 +19,7 @@ layer(base);
   --color-white: #ffffff;
   --color-black: #121723;
   --color-dark: #1d2430;
-  --color-primary: #4a6cf7;
+  --color-primary: #F7941D;
   --color-yellow: #fbb040;
   --color-bg-color-dark: #171c28;
 
@@ -64,14 +64,7 @@ layer(base);
   padding-inline: 1rem;
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
@@ -124,10 +117,16 @@ layer(base);
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif;
-  }
+
+ 
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
+
+  }
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;
