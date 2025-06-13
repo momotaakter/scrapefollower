@@ -6,7 +6,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    designation: "Founder of Authentik",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
@@ -15,7 +15,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    designation: "Founder of hojo",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-02.png",
@@ -24,7 +24,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    designation: "Founder @Lineiconseee",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-03.png",
@@ -34,7 +34,7 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-black bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
@@ -48,6 +48,10 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
+
+
+
+  {      /* Background SVGs for design elements
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"
@@ -176,6 +180,11 @@ const Testimonials = () => {
           </defs>
         </svg>
       </div>
+
+
+
+
+      */}
     </section>
   );
 };

@@ -100,7 +100,14 @@ const Pricing = () => {
         </div>
       </div>
 
+
+
+
+
       <div className="absolute bottom-0 left-0 z-[-1]">
+       
+       {/*
+       
         <svg
           width="239"
           height="601"
@@ -153,8 +160,14 @@ const Pricing = () => {
             </linearGradient>
           </defs>
         </svg>
+*/}
+       
       </div>
+
+    
     </section>
+
+    
   );
 };
 

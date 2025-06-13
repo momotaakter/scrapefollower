@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
-layer(base);
+
+
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
 
 @import 'tailwindcss';
 
@@ -19,12 +25,12 @@ layer(base);
   --color-white: #ffffff;
   --color-black: #121723;
   --color-dark: #1d2430;
-  --color-primary: #F7941D;
+  --color-primary:#EC1C84;
   --color-yellow: #fbb040;
   --color-bg-color-dark: #171c28;
 
   --color-body-color: #788293;
-  --color-body-color-dark: #959cb1;
+  --color-body-color-dark:#d6d6d6;
 
   --color-stroke-stroke: #e3e8ef;
   --color-stroke-dark: #353943;
@@ -116,14 +122,7 @@ layer(base);
 }
 
 @layer base {
-  body {
-
- 
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+  
 
 
   }
@@ -132,3 +131,4 @@ layer(base);
     @apply inline-flex;
   }
 }
+

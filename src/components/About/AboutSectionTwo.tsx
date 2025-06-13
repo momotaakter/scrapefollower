@@ -28,29 +28,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                 How Our Lead Generation System Works
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-[#d6d6d6]">
+                We simplify the entire process — from data scraping to client conversion. Here is how it works step-by-step.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+         Perfect For Freelancers, Agencies & Small Businesses
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-[#d6d6d6]">
+              Whether you are a solo freelancer or running a digital agency, our tool is designed to help you grow your client base with less effort.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+           Why Choose Us
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-[#d6d6d6]">
+              From high-quality leads to seamless integration — we give you the edge you need to stay ahead in the market.
                 </p>
               </div>
             </div>

@@ -1,5 +1,7 @@
+
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -10,7 +12,7 @@ const checkIcon = (
 const AboutSectionOne = () => {
   const List = ({ text }) => (
     <p className="text-body-color mb-5 flex items-center text-lg font-medium">
-      <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
+      <span className="bg-[#F7941D] text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {checkIcon}
       </span>
       {text}
@@ -19,13 +21,14 @@ const AboutSectionOne = () => {
 
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+     
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Simplify Your Client Acquisition Process"
+                paragraph="Our lead generation tool helps you save time and reach potential clients faster and more efficiently."
                 mb="44px"
               />
 
@@ -33,17 +36,17 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                <div className="mx-[-12px] flex flex-wrap dark:text-[#d6d6d6]">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2 dark:text-[#d6d6d6]">
+                    <List text="Targeted lead delivery" />
+                    <List text="Time-saving automation" />
+                    <List text="Verified email and phone data" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Real-time reporting dashboard" />
+                    <List text="Integration with CRM " />
+                    <List text="100% secure and privacy" />
                   </div>
                 </div>
               </div>
